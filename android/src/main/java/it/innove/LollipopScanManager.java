@@ -8,7 +8,7 @@ import android.bluetooth.le.ScanResult;
 import android.bluetooth.le.ScanSettings;
 import android.os.Build;
 import android.os.ParcelUuid;
-import android.support.annotation.RequiresApi;
+// import android.support.annotation.RequiresApi;
 import android.util.Log;
 import com.facebook.react.bridge.*;
 
@@ -17,7 +17,7 @@ import java.util.List;
 
 import static com.facebook.react.bridge.UiThreadUtil.runOnUiThread;
 
-@RequiresApi(Build.VERSION_CODES.LOLLIPOP)
+// @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 public class LollipopScanManager extends ScanManager {
 
 	public LollipopScanManager(ReactApplicationContext reactContext, BleManager bleManager) {
